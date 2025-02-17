@@ -1,1 +1,111 @@
 /* Start coding here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.head {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+}
+.chat-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+.chat1 {
+    background-color: #00c300;
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 25px;
+    padding: 10px;
+    position: absolute;
+    right: 0px;
+    z-index: 2;
+    right: 10px;
+
+}
+
+.chat2 {
+    background-color: #cec8c8;
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 25px;
+    padding: 10px;
+    position: absolute;
+    top: 90px;
+    right: 5px;
+    
+
+}
+.chat3 {
+    background-color: #00c300;
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 25px;
+    position: absolute;
+    top: 160px;
+    right: 5px;
+
+}
+
+.chat4 {
+    background-color: #808080;
+    color: white;
+    align-self: flex-start;
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 30px;
+    padding: 10px;
+    position: absolute;
+    top: 210px;
+}
+.chat5 {
+    background-color: #808080;
+    color: white;
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 30px;
+    padding: 10px;
+    position: absolute;
+    top: 280px;
+}
+.ciecle1 {
+    width: 70px;
+    height: 40px;
+    background-color: #00c300;
+    border-radius: 50%;
+    position: absolute;
+    right: 6px;
+    top: 5px;
+}
+.ciecle2 {
+    width: 70px;
+    height: 35px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    right: 5px;
+    top: 0px;
+}
+.cieclex {
+    width: 30px;
+    height: 30px;
+    background-color: #aaa3a3;
+    border-radius: 100%;
+    text-align: center;
+    position: absolute;
+    top: 90px;
+    right: 5px;
+    font-size: 20px;
+}
