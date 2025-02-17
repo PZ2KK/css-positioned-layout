@@ -1,5 +1,58 @@
-body {
+html {
   font-family: "Kanit";
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
 }
 
-/* Start coding here */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  position: relative;
+  background: white;
+}
+
+.shadow {
+  position: absolute;
+  width: 97%;
+  height: 50%;
+  background: linear-gradient(0deg,black,rgba(255, 255, 255, 0));
+  border-radius: 18px;
+  bottom: 10px;
+  left: 10px;
+  z-index: 1;
+}
+
+img {
+  margin: 10px; 
+  border-radius: 18px;
+  z-index: 0;
+}
+
+.text {
+  font-size: 26px;
+  position: absolute;
+  color: white;
+  bottom: 16px;
+  left: 21px;
+  z-index: 2;
+}
+
+.banner {
+  font-size: 26px;
+  color: white;
+  position: absolute;
+  background-color: hsla(0, 0%, 0%, 0.5);
+  right: 0px;
+  top: 26px;
+  padding: 5px 25px;
+  z-index: 2;
+}
