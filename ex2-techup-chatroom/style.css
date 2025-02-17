@@ -1,1 +1,89 @@
-/* Start coding here */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    color: white;
+    font-size: 30px;;
+    background-color: gray;
+    width: 100vw;
+    padding: 10px;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    border-radius: 18px;
+    gap: 20px;
+    padding: 10px;
+}
+
+.right {
+    display: flex;
+    align-items: flex-end;
+}
+
+.left {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.lime {
+    background-color: lime;
+    z-index: 4;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.lightgray {
+    position: relative;
+    background-color: lightgray;
+}
+
+.x {
+    position: absolute;
+    top: -10px;
+    right: -5px;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    height: 20px;
+    width: 20px;
+    background: hsla(0, 0%, 60%, 0.8)
+    
+}
+
+.x:hover {
+    background: hsla(0, 0%, 40%, 0.8)
+}
+
+.tail {
+    position: absolute;
+    top: 59px;
+    right: 5px;
+    z-index: 1;
+}
+
+.tail1 {
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: lime;
+}
+
+.tail2 {
+    position: absolute;
+    width: 25px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: white;
+}
